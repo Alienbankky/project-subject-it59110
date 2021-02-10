@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Trip</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="scss/main.css">
+    <link rel="stylesheet" href="scss/skin.css">
+    <link rel="stylesheet" href="scss/dev.css">
+    <link rel="stylesheet" href="stype.css">
+    <link href="https://fonts.googleapis.com/css?family=Mitr&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=K2D&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="img/vv.jpg" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.3.1/handlebars.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="./script/index.js"></script>
+</head>
+
+
+
+<body id="wrapper">
+
+    <header>
+        <nav class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+                       <a class="navbar-brand" href="index.html">
+                       <p class="logo">แว่นพาทัวร์</p><span>Have good to travel</span></a>
+                </div>
+                <div id="navbar" class="collapse navbar-collapse navbar-center">
+                    <ul class="nav navbar-nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li class="active"><a href="trip.html">Trip</a></li>
+                            <li><a href="travel.html">Travel</a></li>
+                            <li><a href="login.html">Sign in</a></li>
+                            <li><a href="registration.html">Sign up</a></li>
+                    </ul>
+                   
+                    <form class="form-inline my-2 my-lg-0" action="javascript:void(0);">
+                            <input class="form-control my-2 my-lg-0 mr-sm-2" id = 'searchbox' type="search" placeholder="Search" aria-label="Search">
+                          </form>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+        </nav>
+        <!--/.nav-ends -->
+        
+    </header>
+    
+    
+    
+    <section id="top_banner">
+            <div class="banner">
+                <div class="inner text-center">
+                    <h2 class="detail-headtext">ค้นหาทริปท่องเที่ยวจากทั่วทุกจังหวัด</h2>
+                </div>
+            </div>
+            <div class="page_info">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-8 col-xs-6">
+                            <h4>Trip</h4>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-6" style="text-align:right;">Home<span class="sep"> / </span><span class="current">Trip</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+            <div class="container">   
+    <div class="section-heading text-center">
+            <div class="container">
+                    <div class="row">
+                        <div class="section-heading text-center">
+        <div class="col-md-12 col-xs-12">
+                
+            <h1 class='detail-textI'>พวกเรา <span>จะแนะนำทริปให้คุณ</span></h1>
+            <p class="subheading text-center">มาพบกับทริปการท่องเที่ยวในที่ต่างๆ ที่คุณไม่ควรพลาด ทริปในฝันของคุณอยู่ไม่ไกลเกินเอื้อม ออกเดินทางไปชาร์จพลังให้เต็มที่ เริ่มวางแผนการเดินทางของคุณกับเรา <br>แว่นพาทัวร์</p>
+        </div>
+    </div>
+    
+    
+    <div id="product-area" class="container my-4"> </div>
+    <div id="modal-container" class="container my-4">
+            <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination pagination-lg justify-content-end right">
+                                <li class="page-item">
+                                    <a class="page-link" href="trip.html" tabindex="-1">Previous</a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="trip.html">1</a></li>
+                                <li class="page-item"><a class="page-link" href="page2.html">2</a></li>
+                               
+                            </ul>
+                        </nav>
+    
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+</section>
+    
+    
+
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-3 col-xs-12 block">
+                    <div class="footer-block">
+                        <h4>Address</h4>
+                        <hr/>
+                        <p class="detail-textI">บริษัท สามสหายเด็กแว่นจำกัด อ.ปากเกร็ด จ.นนทบุรี
+                        </p>
+                        <a href="https://www.google.co.th/maps/place/%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%9A%E0%B8%B1%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B2%E0%B8%A3+%E0%B8%9B%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%B2%E0%B8%A0%E0%B8%B4%E0%B8%A7%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B9%8C/@13.9017211,100.5327769,15z/data=!4m2!3m1!1s0x0:0x9dce924bb3421984?sa=X&ved=2ahUKEwjRl_Dys-nkAhWzmuYKHamMBhoQ_BIwCnoECA4QCA" class="learnmore">Learn More <i class="fa fa-caret-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-3 col-xs-12 block">
+                    <div class="footer-block">
+                        <h4>Useful Links</h4>
+                        <hr/>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="trip.html">Trip</a></li>
+                            <li><a href="travel.html">Travel</a></li>
+                            <li><a href="login.html">Sign in</a></li>
+                            <li><a href="registration">Sign Up</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-3 col-xs-12 block">
+                    <div class="footer-block">
+                        <h4>Community</h4>
+                        <hr/>
+                        <ul class="footer-links">
+                                <li><a href="https://www.facebook.com">Facebook Fanpage</a></li>
+                                <li><a href="https://www.youtube.com/?gl=TH">Youtube</a></li>
+                                <li><a href="https://www.instagram.com/?hl=th">Instagram</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-3 col-xs-12 <block></block>">
+                    <div class="footer-block">
+                        <h4 class="detail-headtextI">โพสต์ล่าสุด</h4>
+                        <hr/>
+                        <ul class="footer-links">
+                                <li>
+                                        <a href="https://www.chillpainai.com/scoop/9514/" class="post">ดูพระอาทิตย์ตกที่ แหลมพรหมเทพ</a>
+                                        <p class="post-date">Sep 24, 2019</p>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.govivigo.com/reviews/314-%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B9%83%E0%B8%88%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5%E0%B8%88%E0%B8%B6%E0%B8%87%E0%B9%80%E0%B8%8B%E0%B9%84%E0%B8%9B%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%B0%E0%B8%81%E0%B8%B9%E0%B8%94" class="post">เมื่อใจต้องการทะเลจึงเซไปเกาะกูด</a>
+                                        <p class="post-date">May 25, 2017</p>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.chillpainai.com/scoop/8924/" class="post">'เกาะเกร็ด' One Day Trip ตะลุยเที่ยว ตะลุยกินรอบเกาะ 1 วันเต็ม!</a>
+                                        <p class="post-date">May 25, 2017</p>
+                                    </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section id="bottom-footer">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-md-6 col-sm-6 col-xs-12 copyright">
+                    <h5 class='detail-textI'> Developed by ทีมงานแว่นพาทัวร์ designed by Designing Team</h5> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div id="panel">
+        <div id="panel-admin">
+            <div class="panel-admin-box">
+                <div id="tootlbar_colors">
+                    <button class="color" style="background-color:#1abac8;" onclick="mytheme(0)"></button>
+                    <button class="color" style="background-color:#ff8a00;" onclick="mytheme(1)"> </button>
+                    <button class="color" style="background-color:#b4de50;" onclick="mytheme(2)"> </button>
+                    <button class="color" style="background-color:#e54e53;" onclick="mytheme(3)"> </button>
+                    <button class="color" style="background-color:#1abc9c;" onclick="mytheme(4)"> </button>
+                    <button class="color" style="background-color:#159eee;" onclick="mytheme(5)"> </button>
+                </div>
+            </div>
+
+        </div>
+        <a class="open" href="#"><span><i class="fa fa-gear fa-spin"></i></span></a>
+    </div>
+    </body>  
+<!-- show -->
+
+
+<script id="dishtemplate" type="text/x-handlebars-template">
+        <div class='row'>
+            {{#each travel}}
+                <div class="col-lg-4 col-md-4">
+                    <div class="card bg-dark text-green crop-image display1" data-number={{@index}}>
+                        <img  src="{{display_src}}" class="card-img small-img" alt="...">
+                        <div class="card-img-overlay">
+                            <br>
+                            <h5 class="card-title detail-textI">{{shortname}}</h5>
+                            <p class="card-text detail-textI">{{date}} {{date1}}</p>
+                            <p class="card-text detail-textI">{{date2}} {{date3}}</p> 
+                            <p class="card-text detail-textI">{{money}} {{money1}}</p> 
+                            <p class="card-text detail-textI">{{detail}} {{detail1}}</p> 
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </script>
+
+    <script id="dish-modal-template" type="text/x-handlebars-template">
+        <div class="modal fade" id="dishModal" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content" style="width:100">
+                    <div class="modal-body">
+                        <img  src="{{display_src}}" style ="width:100%" >
+                    </div>
+                </div>
+             </div>
+        </div>
+    </script>
+   
+ <script type="text/javascript">
+     var data = {travel : [
+            {
+                display_src:'img/เกาะพีพี.jpg',
+                shortname:'เกาะพีพี กระบี่',
+                date1:': 16/02/2018',
+                date:'วันที่ออกเดินทาง',
+                date2:'วันที่เดินทางกลับ',
+                date3:': 18/02/2018',
+                money: 'งบประมาณเฉลี่ยต่อคน',
+                money1: ': 5,001 - 10,000 บาท',
+                detail:'บันทึกเพิ่มเติม',
+                detail1:': หมู่เกาะพีพี อยู่ห่างจากจังหวัดกระบี่ราว 40 กิโลเมตร หมู่เกาะพีพี เป็นส่วนหนึ่งของอุทยานแห่งชาติ'
+                 
+
+            },
+            {
+                display_src:'img/เกาะหวาย.jpg',
+                shortname:'เกาะหวาย ตราด',
+                date1:': 21/03/2019',
+                date:'วันที่ออกเดินทาง',
+                date2:'วันที่เดินทางกลับ',
+                date3:': 23/03/2019',
+                money: 'งบประมาณเฉลี่ยต่อคน',
+                money1: ': 1,001 - 5,000 บาท',
+                detail:'บันทึกเพิ่มเติม',
+                detail1:': เกาะหวายทะเลสวยน้ำใส เป็นส่วนตัว ตั้งอยู่ จ.ตราด'
+
+            },
+            {
+                display_src:'img/เขาค้อ.jpg',
+                shortname:'เขาค้อ เพชรบูรณ์',
+                date1:': 06/06/2018',
+                date:'วันที่ออกเดินทาง',
+                date2:'วันที่เดินทางกลับ',
+                date3:': 07/06/2018',
+                money: 'งบประมาณเฉลี่ยต่อคน',
+                money1: ': < 1,000 บาท',
+                detail:'บันทึกเพิ่มเติม',
+                detail1:': รถนำเที่ยวเขาค้อ รถขึ้นวัดผาซ่อนแก้ว รถสองแถวขึ้นเขาค้อ รถสองแถวขึ้นภูทับเบิก บริการโดย ทีมงาน Tour Khaokho ติดต่อจองรถ โทร.090-4544676 083-6268083 (คุณประสงค์) '
+
+            },
+            {
+                display_src:'img/เกาะล้าน.jpg',
+                shortname:'เกาะล้าน ชลบุรี',
+                date1:': 14/06/2018',
+                date:'วันที่ออกเดินทาง',
+                date2:'วันที่เดินทางกลับ',
+                date3:':16/06/2018',
+                money: 'งบประมาณเฉลี่ยต่อคน',
+                money1: ': 1,001 - 5,000 บาท',
+                detail: 'บันทึกเพิ่มเติม',
+                detail1:': ขึ้นรถตู้ที่..สถานีขนส่งเอกมัย - แหลมบาลีฮาย ราคา 150 บาท/เที่ยว/คน ส่งถึงท่าเรือกันเลย เดินอีกประมาณ 100 เมตรก็ลงเรือไปเกาะได้เลยโดยค่าเรือ คนละ 30 บาท/เที่ยว'
+
+            },
+            {
+                display_src:'img/เกาะสมุย.jpg',
+                shortname:'เกาะสมุย สุราษฏ์ธานี',
+                date1:': 22/04/2018 ',
+                date:'วันที่ออกเดินทาง',
+                date2:'วันที่เดินทางกลับ',
+                date3:':25/04/2018',
+                money: 'งบประมาณเฉลี่ยต่อคน',
+                money1: ': 10,001 - 15,000 บาท',
+                detail:'บันทึกเพิ่มเติม',
+                detail1:': Lamai view point is Viewpoint at Lamai Beach A scenic spot where the sunrise is the most beautiful. This is not just a beautiful sunrise. The people here are also nice people.'
+
+            },
+            {
+                display_src:'img/วัดร่องขุ่น.jpg',
+                shortname:'วัดร่องขุ่น เชียงราย',
+                date1:': 30/12/2017 ',
+                date:'วันที่ออกเดินทาง',
+                date2:'วันที่เดินทางกลับ',
+                date3:':01/01/2018',
+                money: 'งบประมาณเฉลี่ยต่อคน',
+                money1: ': 1,001 - 5,000 บาท',
+                detail:'บันทึกเพิ่มเติม',
+                detail1:': เที่ยวเหนือช่วงเทลกาลปีใหม่'
+
+            }
+        ]};
+        
+
+        //console.log(data);
+
+        var source1 = $("#dishtemplate").html();
+        var template = Handlebars.compile(source1);
+
+        var source2 = $("#dish-modal-template").html();
+        var modaltemplate = Handlebars.compile(source2);
+
+        var html = template(data)
+        $("#product-area").html(html);
+
+        function displaymodal(){
+            let number = $(this).data('number')
+            console.log(number);
+            let html = modaltemplate(data.travel[number])
+            $('#modal-area').html(html);
+            $('#dishModal').modal('show')
+        }
+        $('.display1').click(displaymodal);
+         $("#searchbox").keypress(function(even){
+            console.log(event.which);
+                if(event.which == 13){
+                    let searchstr = $(this).val().toUpperCase();
+                   
+                    console.log(searchstr);
+                    let result =  data.travel.filter(function(m){
+                       return m.shortname.toUpperCase().includes(searchstr);                 
+                    });
+                    console.log(result);
+                    let resultdata = {travel:result};
+                    let html = template(resultdata);
+                    $("#product-area").html(html);
+                    $('.display1').click(displaymodal);
+
+                   
+                }
+        })
+
+</script>
+     
+       
+</html>

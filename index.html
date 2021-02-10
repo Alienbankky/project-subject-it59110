@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Home</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="scss/main.css">
+    <link rel="stylesheet" href="scss/skin.css">
+    <link rel="stylesheet" href="scss/dev.css">
+    <link href="https://fonts.googleapis.com/css?family=Mitr&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=K2D&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="img/vv.jpg" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="./script/index.js"></script>
+</head>
+
+
+<body id="wrapper">
+
+ 
+
+    <header>
+        <nav class="navbar navbar-inverse">
+            <div class="container">
+                <div class="row">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+                     <a class="navbar-brand" href="index.html">
+                       <p class="logo">แว่นพาทัวร์</p><span>Have good to travel</span></a>
+                    </div>
+                    <div id="navbar" class="collapse navbar-collapse navbar-center">
+                        <ul class="nav navbar-nav">
+                             <li class="active"><a href="index.html">Home</a></li>
+                            <li><a href="trip.html">Trip</a></li>
+                            <li><a href="travel.html">Travel</a></li>
+                            <li><a href="login.html">Sign in</a></li>
+                            <li><a href="registration.html">Sign up</a></li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                            </form>
+                        <div class="dropdown-menu">
+                              <form class="px-4 py-3">
+                                <div class="form-group">
+                                  <label for="exampleDropdownFormEmail1">Email address</label>
+                                  <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+                                </div>
+                                <div class="form-group">
+                                  <label for="exampleDropdownFormPassword1">Password</label>
+                                  <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+                                </div>
+                                <div class="form-group">
+                                  <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                                    <label class="form-check-label" for="dropdownCheck">
+                                      Remember me
+                                    </label>
+                                  </div>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Sign in</button>
+                              </form>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item" href="#">New around here? Sign up</a>
+                              <a class="dropdown-item" href="#">Forgot password?</a>
+                            </div>
+                    </div>
+                    <!--/.nav-collapse -->
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--/.nav-ends -->
+
+    <div id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('img/Thai1.jpg');"></div>
+                <div class="carousel-caption slide-up">
+                    <h1 class="detail-headtext">ประสบการณ์ <span>ที่ดีที่สุด </span>ในการท่องเที่ยว</h1>
+                    <p class="detail-text">แหล่งท่องเที่ยวในเมืองไทยมีหลากหลาย ตั้งแต่แหล่งท่องเที่ยวเชิงศิลปวัฒนธรรม แหล่งท่องเที่ยวเชิงศาสนา แหล่งท่องเที่ยวทางธรรมชาติ และอีกหลากหลายแหล่งท่องเที่ยวที่น่าไปเยือน</p>
+                    <div class="slider_btn">
+                        <a href="https://www.traveloka.com/th-th/">
+                        <button type="button" class="btn btn-default slide">จองโรงแรม <i class="fa fa-caret-right"></i></button>
+                        </a>
+                        <a href="trip.html">
+                        <button type="button" class="btn btn-primary slide">แนะนำสถานที่ท่องเที่ยว <i class="fa fa-caret-right"></i></button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="fill" style="background-image:url('img/Thai2.jpg');"></div>
+                <div class="carousel-caption slide-up">
+                    <h1 class="detail-headtext">ประสบการณ์ <span>ที่ดีที่สุด </span>ในการเที่ยว</h1>
+                    <p class="detail-text">สวัสดีครับ พวกเราสามสหายแว่นพาเพลิน</p>
+                    <div class="slider_btn">
+                            <a href="https://www.traveloka.com/th-th/">
+                                <button type="button" class="btn btn-default slide">จองโรงแรม <i class="fa fa-caret-right"></i></button>
+                                </a>
+                                <a href="trip.html">
+                                <button type="button" class="btn btn-primary slide">แนะนำสถานที่ท่องเที่ยว <i class="fa fa-caret-right"></i></button>
+                                </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="fill" style="background-image:url('img/Thai3.jpg');"></div>
+                <div class="carousel-caption slide-up">
+                    <h1 class="detail-headtext">นี่คือ <span>เว็ปไซต์</span> ที่ทำให้คุณค้นพบทริปในฝัน</h1>
+                    <p class="detail-text">รวมข้อมูลท่องเที่ยว แนะนำสถานที่ท่องเที่ยวทั้งเที่ยวไทยและเที่ยวต่างประเทศ มาแชร์ทุกประสบการณ์ท่องเที่ยวของคุณ พร้อมวางแผนการเดินทางไปกับเรา แว่นพาทัวร์</p>
+                    <div class="slider_btn">
+                            <a href="https://www.traveloka.com/th-th/">
+                                <button type="button" class="btn btn-default slide">จองโรงแรม <i class="fa fa-caret-right"></i></button>
+                                </a>
+                                <a href="trip.html">
+                                <button type="button" class="btn btn-primary slide">แนะนำสถานที่ท่องเที่ยว <i class="fa fa-caret-right"></i></button>
+                                </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"> <i class="fa fa-angle-left" aria-hidden="true"></i>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"> <i class="fa fa-angle-right" aria-hidden="true"></i>
+            <span class="sr-only">Next</span>
+        </a>
+
+    </div>
+
+    <section id="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-xs-12 block">
+                    <div class="col-md-2 col-xs-2"><i class="fa fa-plane feature_icon"></i></div>
+                    <div class="col-md-10 col-xs-10">
+                        <h4 class="detail-textI">จองทัวร์</h4>
+                        <p class="detail-textI"> เช็คตัวเดินทางได้ง่ายๆ ที่นี่</p>
+                        <a href="travel.html" class="readmore">Read More <i class="fa fa-caret-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12 block">
+                    <div class="col-md-2 col-xs-2"><i class="fa fa-car feature_icon"></i></div>
+                    <div class="col-md-10 col-xs-10">
+                        <h4>Trip</h4>
+                        <p class="detail-textI">เป็นการท่องเที่ยวแบบมีความ Real และ เล่าออกมาเป็น Blog โดยตะลอนทัวร์ไปตามสถานที่ต่างๆในไทย</p>
+                        <a href="trip.html" class="readmore">Read More <i class="fa fa-caret-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12 block">
+                    <div class="col-md-2 col-xs-2"><i class="fa fa-book feature_icon"></i></div>
+                    <div class="col-md-10 col-xs-10">
+                        <h4>Travel</h4>
+                        <p class="detail-textI">สถานที่ต่างๆที่น่าสนใจ</p>
+                        <a href="travel.html" class="readmore">Read More <i class="fa fa-caret-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="about">
+        <div class="image-holder col-lg-6 col-md-6 col-sm-6 col-xs-12 pull-left">
+            <div class="background-imgholder">
+                <a hrft="img/1" rel="lightbox">
+                <img src="img/1" alt="about" class="img-responsive" style="display:none;" /></a>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+
+            <div class="col-md-7 col-md-offset-5 col-sm-8 col-sm-offset-2 col-xs-12 text-inner ">
+                <div class="text-block">
+                    <div class="section-heading">
+                        <h1 class="detail-headtext">เที่ยว <span>เกาะเกร็ด</span></h1>
+                        <p class="subheading">ตำบล เกาะเกร็ด อำเภอ ปากเกร็ด จังหวัด นนทบุรี</p>
+                    </div>
+
+                    <ul class="aboutul">
+                        <li class="detail-textI"> <i class="fa fa-circle"></i>เกาะเกร็ดเป็นย่านชุมชนที่มีความเจริญมาตั้งแต่สมัยกรุงศรีอยุธยาตอนปลาย </li>
+                        <li class="detail-textI"> <i class="fa fa-circle"></i>มีเนื้อที่ประมาณ 4.2 ตารางกิโลเมตรหรือ 2,625 ไร่</li>
+                        <li class="detail-textI"> <i class="fa fa-circle"></i>เจดีย์เอียง ตั้งอยู่หัวมุมเกาะ เป็นสัญลักษณ์ประจำเกาะเกร็ด</li>
+                        <li class="detail-textI"> <i class="fa fa-circle"></i>พิพิธภัณฑ์วัดปรมัยยิกาวาส จัดแสดงเครื่องปั้นดินเผาและพระราชประวัติ ร.5</li>
+                        <li class="detail-textI"> <i class="fa fa-circle"></i>วัดป่าเลไลยก์ เป็นวัดร้าง ปัจจุบันอยู่ในดูแลของวัดฉิมพลีสุทธาวาส</li>
+                        <li class="detail-textI"> <i class="fa fa-circle"></i>วัดเสาธงทอง วัดที่ประดิษฐานเจดีย์ที่สูงที่สุดของอำเภอปากเกร็ด</li>
+                    </ul>
+                    <a href="https://www.govivigo.com/reviews/390-1-DAY-TRIP-%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A7%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%B0%E0%B9%80%E0%B8%81%E0%B8%A3%E0%B9%87%E0%B8%94%E0%B8%99%E0%B8%99%E0%B8%97%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5">
+                    <button type="button" class="btn btn-primary slide">อ่านรีวิว  <i class="fa fa-caret-right"></i> </button></a>
+                    <a href="https://th.wikipedia.org/wiki/%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%B0%E0%B9%80%E0%B8%81%E0%B8%A3%E0%B9%87%E0%B8%94">
+                    <button type="button" class="btn btn-primary slide"> Website ทางการ <i class="fa fa-book"></i></button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="process">
+        <div class="container">
+            <div class="section-heading text-center">
+                <div class="col-md-12 col-xs-12">
+                    <h1>What<span> We Do</span></h1>
+                    <p class="subheading">ทำเว็บไซด์เกี่ยวกับการท่องเที่ยวต่างๆในไทย รวมทั้ง รีวิวสถานที่ต่างๆที่น่าสนใจ</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-6 block process-block">
+                    <div class="process-icon-holder">
+                        <div class="process-border">
+                            <span class="process-icon"><a href="#"><i class="fa fa-lightbulb-o feature_icon"></i></a></span></div>
+                        <div class="clearfix"></div>
+                    </div>
+
+                    <div class="process-text-block">
+                        <h4><a href="#">Idea</a></h4>
+                        <p class="detail-textI">อยากจะแบ่งปันเรื่องราวดีๆในการท่องเที่ยว เพื่อเป็นเเนวทางให้สำหรับผู้ที่ชื่นชอบการเดินทาง รวมทั้งพวกเราก็อยากจะพิสูจน์ให้ทุกคนเห็นว่า ผู้หญิงตัวเล็กๆก็สามารถเดินทางได้</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 block process-block">
+                    <div class="process-icon-holder">
+                        <div class="process-border">
+                            <span class="process-icon"><a href="#"><i class="fa fa-cloud-download feature_icon"></i></a></span></div>
+                        <div class="clearfix"></div>
+                    </div>
+
+                    <div class="process-text-block">
+                        <h4><a href="#">Concept</a></h4>
+                        <p class="detail-textI">รีวิวสถานที่ต่างๆที่น่าสนใจ โดยตะลอนทัวร์ไปตามสถานที่ต่างๆในไทย อย่างเดียว</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 block process-block">
+                    <div class="process-icon-holder">
+                        <div class="process-border">
+                            <span class="process-icon"><a href="#"><i class="fa fa-magic feature_icon"></i></a></span></div>
+                        <div class="clearfix"></div>
+                    </div>
+
+                    <div class="process-text-block">
+                        <h4><a href="#">Design</a></h4>
+                        <p class="detail-textI">ทำยังไงให้คุณผู้อ่านได้มีความสุขกับเว็บไซด์ของเราแบบ สบายตา สบายใจ</p>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="testimonial">
+        <div class="container">
+            <div class="section-heading text-center">
+                <div class="col-md-12 col-xs-12">
+                    <h1 class="detail-text">ทีมงานแว่นพาทัวร์ <span></span></h1>
+                    <p class="subheading">พวกเราสามคน ชอบท่องเที่ยวอะไรหลากหลาย จึงคิดว่าอยากจะมาลองเล่าประสบการณ์ในการเที่ยวในสถานที่ต่างๆ และก็ มีโอกาสได้ร่วมงานกันบ่อยๆ จึงได้ทำเว็บไซด์ออกมาให้ท่านผู้อ่าน ได้ติดตาม</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-12 block ">
+                    <div class="testimonial_box">
+                        <p>ผู้ที่หลงไหลในการทำเว็บไซด์ท่องเที่ยวมา 7 ปี เป็นคนที่ท่องเที่ยวเป็นชีวิตจิตใจ ทั้งในไทยและต่างประเทศ</p>
+                    </div>
+                    <div class="arrow-down"></div>
+                    <div class="testimonial_user">
+                        <div class="user-image"><img src="img/Ny.jpg" alt="user" class="img-responsive" /></div>
+                        <div class="user-info">
+                            <h5>Kesinee Muadlam</h5>
+                            <p>Manager</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 col-sm-12 block">
+                    <div class="testimonial_box">
+                        <p class="detail-textI">ผู้ที่มีความใฝ่ฝันในด้านการออกแบบ ดีไซน์ ดิฉันได้รับโอกาสมาเป็นส่วนหนึ่งในทีม แว่นพาทัวร์</p>
+                    </div>
+                    <div class="arrow-down"></div>
+                    <div class="testimonial_user">
+                        <div class="user-image"><img src="img/gift.jpg" alt="user" class="img-responsive" /></div>
+                        <div class="user-info">
+                            <h5>ChaniCha ThungThong</h5>
+                            <p>Design</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12 block">
+                    <div class="testimonial_box">
+                        <p class="detail-textI">ผู้ที่ชื่นชอบในการแก้ปัญหา ท้าทาย ก็จะทำตรงนี้ให้ดีที่สุดครับ </p>
+                    </div>
+                    <div class="arrow-down"></div>
+                    <div class="testimonial_user">
+                        <div class="user-image"><img src="img/bank.jpg" alt="user" class="img-responsive" /></div>
+                        <div class="user-info">
+                            <h5>Pattraphong Phimdee</h5>
+                            <p>Developer</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-3 col-xs-12 block">
+                    <div class="footer-block">
+                        <h4>Address</h4>
+                        <hr/>
+                        <p class="detail-textI">บริษัท สามสหายเด็กแว่นจำกัด อ.ปากเกร็ด จ.นนทบุรี
+                        </p>
+                        <a href="https://www.google.co.th/maps/place/%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%9A%E0%B8%B1%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B2%E0%B8%A3+%E0%B8%9B%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%B2%E0%B8%A0%E0%B8%B4%E0%B8%A7%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B9%8C/@13.9017211,100.5327769,15z/data=!4m2!3m1!1s0x0:0x9dce924bb3421984?sa=X&ved=2ahUKEwjRl_Dys-nkAhWzmuYKHamMBhoQ_BIwCnoECA4QCA" class="learnmore">Learn More <i class="fa fa-caret-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-3 col-xs-12 block">
+                    <div class="footer-block">
+                        <h4>Useful Links</h4>
+                        <hr/>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="trip.html">Trip</a></li>
+                            <li><a href="travel.html">Travel</a></li>
+                            <li><a href="login.html">Sign in</a></li>
+                            <li><a href="registration">Sign Up</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-3 col-xs-12 block">
+                    <div class="footer-block">
+                        <h4>Community</h4>
+                        <hr/>
+                        <ul class="footer-links">
+                            <li><a href="https://www.facebook.com">Facebook Fanpage</a></li>
+                            <li><a href="https://www.youtube.com/?gl=TH">Youtube</a></li>
+                            <li><a href="https://www.instagram.com/?hl=th">Instagram</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-3 col-xs-12 <block></block>">
+                    <div class="footer-block">
+                        <h4 class="detail-headtextI">โพสต์ล่าสุด</h4>
+                        <hr/>
+                        <ul class="footer-links">
+                            <li>
+                                <a href="https://www.chillpainai.com/scoop/9514/" class="post">ดูพระอาทิตย์ตกที่ แหลมพรหมเทพ</a>
+                                <p class="post-date">Sep 24, 2019</p>
+                            </li>
+                            <li>
+                                <a href="https://www.govivigo.com/reviews/314-%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B9%83%E0%B8%88%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5%E0%B8%88%E0%B8%B6%E0%B8%87%E0%B9%80%E0%B8%8B%E0%B9%84%E0%B8%9B%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%B0%E0%B8%81%E0%B8%B9%E0%B8%94" class="post">เมื่อใจต้องการทะเลจึงเซไปเกาะกูด</a>
+                                <p class="post-date">May 25, 2017</p>
+                            </li>
+                            <li>
+                                <a href="https://www.chillpainai.com/scoop/8924/" class="post">'เกาะเกร็ด' One Day Trip ตะลุยเที่ยว ตะลุยกินรอบเกาะ 1 วันเต็ม!</a>
+                                <p class="post-date">May 25, 2017</p>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section id="bottom-footer">
+        <div class="container">
+            <div class="row">
+               
+                <div class="col-md-6 col-sm-6 col-xs-12 copyright">
+                    <h5 class='detail-textI'> Developed by ทีมงานแว่นพาทัวร์ designed by Designing Team</h5> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="panel">
+        <div id="panel-admin">
+            <div class="panel-admin-box">
+                <div id="tootlbar_colors">
+                    <button class="color" style="background-color:#1abac8;" onclick="mytheme(0)"></button>
+                    <button class="color" style="background-color:#ff8a00;" onclick="mytheme(1)"> </button>
+                    <button class="color" style="background-color:#b4de50;" onclick="mytheme(2)"> </button>
+                    <button class="color" style="background-color:#e54e53;" onclick="mytheme(3)"> </button>
+                    <button class="color" style="background-color:#1abc9c;" onclick="mytheme(4)"> </button>
+                    <button class="color" style="background-color:#159eee;" onclick="mytheme(5)"> </button>
+                </div>
+            </div>
+
+        </div>
+        <a class="open" href="#"><span><i class="fa fa-gear fa-spin"></i></span></a>
+    </div>
+</body>
+</html>
